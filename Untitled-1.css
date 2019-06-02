@@ -1,0 +1,15 @@
+.ifelsediv {
+    background: #415665;
+    height: 500px;
+    width:250px;
+    border-radius: 15px;
+    padding:20px;
+    font-size:22px;
+    color:#fff;  
+  }
+  #selectbFHR {font-size:16px;}
+  #selectvar {font-size:16px;}
+  #selectbFHR {font-size:16px;}
+  #selectdec {font-size:16px;}
+  #selectace {font-size:16px;}
+  #btn {font-size:16px;}

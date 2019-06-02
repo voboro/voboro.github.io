@@ -1,0 +1,40 @@
+<script src="untitled-1.js"></script>
+<link rel="stylesheet" type="text/css" href="untitled-1.css">
+<body>
+    <div class="ifelsediv">
+    
+    <label>baseline FHR: <br></label><select id="selectbFHR">
+        <option>110-160 bpm</option>
+        <option>100-109 bpm</option>
+        <option>160 bpm or rising</option>
+        <option>&lt 100 bpm for &gt 5min</option>
+        <option>I dont know how</option>
+    </select> <br><br>
+    
+    <label>30min-Variability: <br></label><select id="selectvar">
+        <option>6-25 bpm</option>
+        <option>&gt 25 bpm</option>
+        <option>3-5 bpm</option>
+        <option>&lt 3 bpm or sinusoidal</option>
+        <option>I dont know how</option>
+    </select> <br><br>
+    
+    <label>Deceleration type: <br></label><select id="selectdec">
+        <option>No deceleration</option>
+        <option>Early or variable</option>
+        <option>Late or complicated</option>
+        <option>I dont know how</option>
+    </select> <br><br>
+    
+    <label>Acceleration : <br></label><select id="selectace">
+        <option>&gt 15bpm for &gt 15seconds</option>
+        <option>No accelerations</option>
+        <option>I dont know how</option>
+    </select> <br><br>
+    
+    <button id="btn" onclick="ifelsefunction()">CTG Tracing Interpretation based on above</button>
+    
+    <p id="advice"></p>
+    </div> 
+    
+    
